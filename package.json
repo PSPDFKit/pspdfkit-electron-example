@@ -1,0 +1,33 @@
+{
+  "name": "pspdfkit-electron-example",
+  "productName": "PSPDFKit for Electron Example App",
+  "version": "2020.1.1",
+  "description": "WebAssembly based PDF viewer web application built with PSPDFKit for Electron",
+  "main": "src/index.js",
+  "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --no-prune --overwrite --platform=darwin --arch=x64 --out=release-builds --icon=icons/mac/application.icns",
+    "package-win": "electron-packager . --no-prune --overwrite --platform=win32 --arch=x64  --out=release-builds --icon=icons/win/application.ico",
+    "package-linux": "electron-packager . --no-prune --overwrite --platform=linux --arch=x64 --out=release-builds --icon=icons/png/application.png"
+  },
+  "repository": "https://github.com/PSPDFKit/pspdfkit-electron-example",
+  "author": "PSPDFKit (https://pspdfkit.com)",
+  "homepage": "https://pspdfkit.com/web",
+  "readme": "https://pspdfkit.com/guides/web",
+  "keywords": [
+    "wasm",
+    "assembly",
+    "pdf",
+    "viewer",
+    "pspdfkit",
+    "asm.js",
+    "electron"
+  ],
+  "devDependencies": {
+    "electron": "^7.1.4"
+  },
+  "dependencies": {
+    "pspdfkit": "2020.1.1"
+  }
+}

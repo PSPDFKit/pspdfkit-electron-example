@@ -33,7 +33,7 @@ if (LICENSE_KEY === "") {
 
 If you are using an evaluation license you can find the license key at:
 
-https://pspdfkit.com/guides/web/current/electron/example-project
+https://pspdfkit.com/guides/web/current/pspdfkit-for-electron/example-project/
 
 Otherwise you can find your license key in our the customers portal:
 

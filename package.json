@@ -1,5 +1,5 @@
 {
-  "name": "pspdfkit-electron-example",
+  "name": "YOUR_PACKAGE_NAME",
   "productName": "PSPDFKit for Electron Example App",
   "version": "2021.4.0",
   "description": "WebAssembly based PDF viewer web application built with PSPDFKit for Electron",
@@ -24,9 +24,9 @@
     "electron"
   ],
   "devDependencies": {
-    "electron": "^11.3.0"
+    "electron": "^9.2.2"
   },
   "dependencies": {
-    "pspdfkit": "2021.4.1"
+    "pspdfkit": "^2020.6.4"
   }
 }

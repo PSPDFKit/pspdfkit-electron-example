@@ -71,6 +71,7 @@ async function load(document) {
     document,
     container: "#root",
     styleSheets: ["./pspdfkit.css"],
+    licenseKey: "YOUR_LICENSE_KEY"
   };
 
   instance = await PSPDFKit.load(configuration);
